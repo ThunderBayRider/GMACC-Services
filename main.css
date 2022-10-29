@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+    
+
+
+
+/*homepage*/ 
+
+.bgvideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.mail {
+    position: relative;
+    padding:10px;
+    font-size: large;
+    }
+
+.logo {
+    width: 500px;
+    position: fixed;
+    top: 100px;
+}
+
+.menu {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+
+.slogan {
+    background-color:#60bd91;
+    width:100%;
+    height: 50px;
+    top: 600px;
+    position: relative;
+    color:white;
+    padding-left:18%;    
+}
+
+.slogan h2{
+    font-weight: 400;
+    padding: 10px;
+}
+
+.stamps  img{
+    max-width: 250px;
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    padding: 50px;
+    }
+
+.home-footer{
+    display:flex;
+    align-items: center;
+    position:absolute;
+    height:50px;
+    bottom:0;
+    background-color: #292929;
+    color:#f9f9f9;
+    width:100%;
+    z-index: 1;
+    justify-content: center;
+    }
+
+
+
+/*ABOUT PAGE================================================================================================================================================ */ 
+
+
+
+.tagline {
+    color: black;
+    height: 50px;
+    position: absolute;
+    padding-top: 650px;
+}
+
+.purpose{
+    color: black;
+    height: 50px;
+    position: absolute;
+    padding-top: 700px;
+}
+
+.logo2 {
+    width: 500px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* MOBILE VERSION ==================================================================================================================================== */ 
+
+@media (min-aspect-ratio: 16/9){
+    .bgvideo{
+        width: 100%;
+        height: auto;
+}
+}
+
+@media (max-aspect-ratio: 16/9){
+    .bgvideo{
+        width: auto;
+        height: 100%;
+    }
+}
